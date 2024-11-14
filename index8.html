@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LAB01</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <style>
+        .section {
+            height: 100vh;
+            background: rgb(238, 247, 255);
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .logo {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .input {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .input .name {
+            padding: 10px 0px;
+            margin: 0 30px;
+            border-bottom: 1px solid #000;
+        }
+        .input .name i {
+            box-sizing: border-box;
+            font-size: 35px;
+            margin: 0px 20px;
+        }
+        .input .name input {
+            width: 70%;
+            font-size: 20px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .input .password {
+            padding: 10px 0px;
+            margin: 20px 30px;
+            border-bottom: 1px solid #000;
+        }
+        .input .password i {
+            box-sizing: border-box;
+            font-size: 35px;
+            margin: 0px 20px;
+        }
+        .input .password input {
+            width: 70%;
+            font-size: 20px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .input button {
+            width: 90%;
+            height: 50px;
+            background-color: rgb(57, 120, 255);
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 20px;
+        }
+        .input button:hover {
+            background-color: rgb(28, 68, 154);
+        }
+        .other {
+            width: 80%;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            color: black;
+        }
+         a:hover {
+            color: blue;
+        }
+        .sub-title {
+            width: 90%;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .sub-title::after,
+        .sub-title::before {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid rgb(45, 45, 255);
+            margin: 0 10px;
+        }
+        .app {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .app div {
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        .app i {
+            font-size: 40px;
+        }
+
+        .app .user {
+            background-color: rgb(36, 182, 255);
+        }
+
+        .app .wifi {
+            background-color: rgba(244, 170, 71, 1);
+        }
+
+        .app .facebook {
+            background-color: rgba(58, 87, 156, 1);
+        }
+        .comeback {
+            display: flex;
+            justify-content: center;
+            gap: 110px;
+            margin-top: 20px;
+        }
+        .comeback button {
+            width: 120px;
+            height: 48px;
+            background-color: rgb(223, 176, 24);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+           
+        }
+    </style>
+        <div class="section">
+            <div class="image">
+                <img src="z6032906167166_7aabc404a31f6743a9c54dea38f39247-removebg-preview.png" alt="eyeball" class="eyeball">
+            </div>
+            <div class="input">
+                <div class="name">
+                    <i class="fa-regular fa-user"></i> <input type="text" placeholder="Please input user name">
+                </div>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i> <input type="password" placeholder="Please input password">
+                </div>
+                <button class="login">LOGIN</button>
+            </div>
+            <div class="item">
+                <a href="#">Register</a>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="sub-title">
+                <p>Other Login Methods</p>
+            </div>
+            <div class="app">
+                <div class="user">
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <div class="wifi">
+                    <i class="fa-solid fa-wifi"></i>
+                </div>
+                <div class="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+            <div class="comeback">
+                <a href="index7.html" ><button class="non-button" ><strong>BACK</strong></button></a>
+                <a href="#" ><button class="non-button"><strong>NEXT</strong></button></a>
+            </div>
+        </div>
+</body>
+
+</html>

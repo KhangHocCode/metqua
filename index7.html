@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LAB01</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .section {
+            height: 100vh;
+            background: linear-gradient(to bottom, #ffcb0d 50%, #ba9100);
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .title {
+            height: 10%;
+            width: 100%;
+            font-size: 25px;
+            font-weight: 700;
+            margin-top: 80px;
+            margin-left: 30px;
+            text-align: left;
+        }
+        .login {
+            width: 100%;
+            align-items: center;
+        }
+        .name {
+            background-color: rgba(196, 196, 196, 0.3);
+            border: 1px solid #ffffff;
+            margin: 0 10px;
+            margin-bottom: 30px;
+        }
+        .name i {
+            box-sizing: border-box;
+            font-size: 25px;
+            margin: 10px 20px;
+        }
+        .name input {
+            width: 80%;
+            padding: 20px 0;
+            font-size: 15px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .password {
+            background-color: rgba(196, 196, 196, 0.3);
+            border: 1px solid #ffffff;
+            margin: 0 10px;
+            margin-bottom: 75px;
+        }
+        .password i {
+            box-sizing: border-box;
+            font-size: 25px;
+            margin: 10px 20px;
+        }
+        .password input {
+            width: 60%;
+            padding: 20px 0;
+            font-size: 15px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .button {
+            width: 90%;
+            height: 50px;
+            background-color: #000000;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 20px;
+        }
+        .sub-title {
+            height: 20%;
+            width: 100%;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .comeback {
+            display: flex;
+            justify-content: center;
+            gap: 110px;
+            margin-top: 20px;
+        }
+        .comeback button {
+            width: 120px;
+            height: 48px;
+            background-color: rgb(223, 176, 24);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+           
+        }
+    </style>
+        <div class="section">
+            <div class="title">
+                <h2 class="">LOGIN</h2>
+            </div>
+            <div class="login">
+                <div class="name">
+                    <i class="fa-solid fa-user"></i> <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i> <input type="password" placeholder="Password" id="password">
+                    <i class="far fa-eye"></i>
+                </div>
+                <button type="submit" class="button"><strong>LOGIN</strong></button>
+            </div>
+            <h2 class="sub-title">CREATE ACCOUNT</h2>
+            <div class="comeback">
+                <a href="index6.html"><button class="non-button" ><strong>BACK</strong></button></a>
+                <a href="index8.html" ><button class="non-button"><strong>NEXT</strong></button></a>
+            </div>
+        </div>
+</body>
+</html>

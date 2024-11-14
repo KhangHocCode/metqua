@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LAB01</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+            border-radius: 10%;
+        }
+
+        .section {
+            height: 100vh;
+            background: linear-gradient(to bottom, #d8f9ff 85%, #35e4ff);
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5px
+        }
+        .icon {
+                height: 260px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+        }
+
+        .icon i {
+                font-size: 110px;
+                width: 99.06px;
+                height: 112.37px;
+                top: 2.3px;
+                left: 2.96px;
+                gap: 0px;
+                opacity: 0.98px;
+        }
+
+         .title {
+                display: flex;
+                font-size: 25px;
+                font-weight: 700;
+                margin: 0 113px;
+                text-align: center;
+        }
+        .description {
+                text-align: center;
+                margin: 0 26px;
+                font-size: 15px;
+                padding: 30px 0;
+        }
+        .box {
+                margin: 0 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+        }
+        .sub-icon {
+                margin: 0 5%;
+        }
+        .box input {
+                border: 1px solid white;
+                width: 280px;
+                height: 45px;
+                outline: none;
+        }
+        .button {
+                margin: 20px 40px;
+                background-color: rgb(255, 210, 46);
+                width: 305px;
+                height: 45px;
+                border: none;
+                font-size: 18px;
+                font-weight: 700;
+            
+        }
+        .comeback {
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+        }
+        .comeback button {
+            width: 120px;
+            height: 48px;
+            background-color: rgb(223, 176, 24);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+        <div class="section">
+            <div class="container">
+                <div class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                </div>
+                <h2 class="title">FORGET PASSWORD</h2>
+                <p class="description"><strong>Provide your account's email for which you want to reset your password</strong></p>
+                <form class="box">
+                    <div class="sub-icon">
+                    <i class="fa-regular fa-envelope"></i></div>
+                    <input type="Email" placeholder="Email" class="email">
+                </form>
+                <br/>
+                <button type="submit" class="button"><strong>NEXT</strong></button>
+            </div>
+            <div class="comeback">
+                <a href="index2.html" ><button class="non-button" ><strong>BACK</strong></button></a>
+                <a href="index4.html" ><button class="non-button"><strong>NEXT</strong></button></a>
+            </div>
+        </div>
+</body>
+</html>
